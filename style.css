@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "Roboto", "Oxygen",
+    sans-serif;
+  background-color: #14120b;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 5px;
+  left: 0;
+  right: 0;
+  background-color: #14120b;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-logo .logo-icon {
+  height: 20px;
+  width: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.navbar-logo .logo-text {
+  height: 16px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+  
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.btn-contact {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-signin {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.btn-download {
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 15px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
