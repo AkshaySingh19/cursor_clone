@@ -151,3 +151,45 @@ body {
   height: auto;
   border-radius: 12px;
 }
+
+/* Trusted Section Styles */
+.trusted {
+  background-color: #14120b;
+  padding: 40px 40px 80px;
+}
+
+.trusted-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trusted-text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.trusted-logos {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.logo-item img {
+  max-width: 100%;
+  height: 32px;
+  object-fit: contain;
+  opacity: 0.8;
+}
