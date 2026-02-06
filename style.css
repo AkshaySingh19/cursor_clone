@@ -402,3 +402,151 @@ body {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+
+
+
+/* Use Case Section Styles */
+.usecase {
+  background-color: #1a1812;
+  padding: 100px 40px;
+}
+
+.usecase-title {
+  text-align:left;
+  padding-left:7px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.usecase-grid {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.usecase-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.usecase-content {
+  margin-bottom: 30px;
+}
+
+.usecase-heading {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  
+}
+
+.usecase-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.usecase-link {
+  display: inline-flex;
+  align-items: center;
+  color: #ff6b35;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.usecase-image {
+  width: 100%;
+  margin-top: auto;
+}
+
+.usecase-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+/* Changelog Section Styles */
+.team {
+  background-color: #14120b;
+  padding: 100px 40px;
+}
+
+.changelog-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.changelog-grid {
+  max-width: 1600px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.changelog-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.changelog-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.version-badge {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.changelog-date {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.changelog-item-title {
+  font-size: 15px;
+  font-weight: 450;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.changelog-link {
+  display: inline-flex;
+  align-items: center;
+  color: #ff6b35;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
